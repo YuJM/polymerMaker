@@ -4,4 +4,4 @@ Need Install
 "Golang"
 
 End then 
-"go run polyPack"
+"go run polyPack.go"
