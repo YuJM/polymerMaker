@@ -44,8 +44,8 @@ func main() {
 		fmt.Println("This is Polymer Component Maker")
 		fmt.Println("You wnat to make component")
 		fmt.Println("You should typing \nlike this \"go run polyPack.go -c=test-component\"")
-		fmt.Println("\n\n\nCopyright (c) 2014 YuJM")
-		fmt.println("zsxzsx1010@gmail.com")
+		fmt.Println("\n\nCopyright (c) 2014 YuJM")
+		fmt.Println("zsxzsx1010@gmail.com")
 	} else {
 		if strings.Contains(*cname, "-") {
 			tt := Temp{*cname}
