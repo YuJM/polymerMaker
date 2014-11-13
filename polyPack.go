@@ -14,8 +14,8 @@ type Temp struct {
 
 func mkComponent(item Temp) {
 
-	file := fmt.Sprintf("%s/%s.html", item.Name, item.Name)
-	os.Mkdir(item.Name, 0644)
+	file := fmt.Sprintf("mc/%s/%s.html", item.Name, item.Name)
+	os.MkdirAll("mc/"+item.Name, 0644)
 	f, _ := os.Create(file)
 	defer f.Close()
 
